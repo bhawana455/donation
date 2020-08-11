@@ -2,20 +2,35 @@
 .carousel{
     padding: 10%;
 }
-img{
-
-    width: 10%;
+ img{
     height: 10%;
+    width: 10%;
 }
-
 button{
     padding-top: 40%;
     margin-left: 45%;
+   
 }
 
-.card-para{
+.card-deck{
+
+padding-top: 10%;
+}
+.card-title {
     text-align: center;
+   font-size: 40px;
 }
-.form-group{
-   padding-left: 20px;
+p{
+    font-size: 20px;
 }
+.card-body{
+    background-color: rgb(128, 180, 189);
+}
+@media only screen and (max-width:920px){
+    button{
+       
+        margin-left: 35%;
+    }
+
+}
+
