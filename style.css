@@ -12,6 +12,7 @@ button{
    
 }
 
+
 .card-deck{
 
 padding-top: 10%;
@@ -30,6 +31,21 @@ p{
     button{
        
         margin-left: 35%;
+    }
+    .card-title {
+       
+       font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .display-4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .lead{
+        font-size: 15px;
     }
 
 }
